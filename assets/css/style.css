@@ -72,3 +72,20 @@ nav a{
     width: 380px;
 }
 
+.formSec{
+    background-color: #5768AD;
+}
+
+input{
+    background-color: #7986BD;
+    border: none;
+}
+
+textarea{
+    background-color: #7986BD;
+    border: none;
+}
+
+::placeholder {
+   color: white;
+  }
