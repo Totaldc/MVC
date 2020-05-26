@@ -58,3 +58,11 @@ nav a{
     padding-top: 50px;
     background-color: #F5F6FA;
 }
+
+.join-class a{
+    padding: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: blueviolet;
+
+}
