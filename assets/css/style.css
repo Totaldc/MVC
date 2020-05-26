@@ -1,0 +1,43 @@
+*{
+
+    font-family: sans-serif;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+header ul{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.join{
+    padding: 10px 20px;
+    background-color: #5768AD;
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.homeFirst{
+    background-image: url('../images/hero-1.png');
+    background-size: inherit;
+    height: 100vh ;
+}
+
+.karusele{
+    top: 300px;
+    
+}
+
+.carousel-text a{
+    color: white;
+    background-color: #5768AD;
+}
