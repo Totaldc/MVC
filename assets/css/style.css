@@ -41,3 +41,10 @@ nav a{
     color: white;
     background-color: #5768AD;
 }
+
+.first-sec-button{
+    padding: 20px;
+    background-color: #5768AD;
+    color: white;
+    text-decoration: none;
+}
