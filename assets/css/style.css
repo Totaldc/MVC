@@ -7,6 +7,7 @@
 body{
     padding: 0;
     margin: 0 auto;
+    background-color: #FEFEFE;
 }
 
 header ul{
@@ -47,4 +48,8 @@ nav a{
     background-color: #5768AD;
     color: white;
     text-decoration: none;
+}
+
+.card{
+    border: none;
 }
