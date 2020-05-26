@@ -38,6 +38,11 @@ nav a{
     
 }
 
+.karusele2{
+    top: 150px;
+    margin-bottom: 150px;
+}
+
 .carousel-text a{
     color: white;
     background-color: #5768AD;
