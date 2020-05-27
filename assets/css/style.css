@@ -155,3 +155,8 @@ textarea{
 .counter-bg{
     background-image: url("../images/counter-bg.jpg");
 }
+
+.zoom {
+    padding: 20px;
+    background-color: lightgray;
+}
