@@ -183,3 +183,17 @@ textarea{
 .classesThird{
     background-color: #F3F4F8;
 }
+
+.pagination-lg .page-item:first-child .page-link {
+   border-radius: 50%;
+  }
+
+.pagination-lg .page-item .page-link {
+    border-radius: 50%;
+   }
+ 
+  .pagination-lg .page-item:last-child .page-link {
+    border-radius: 50%;
+  }
+
+ 
