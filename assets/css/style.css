@@ -151,3 +151,7 @@ textarea{
     width: 133px;
     height: 120px;
 }
+
+.counter-bg{
+    background-image: url("../images/counter-bg.jpg");
+}
