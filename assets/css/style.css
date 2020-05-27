@@ -96,6 +96,22 @@ textarea{
   }
 
 
+  input.inpSec{
+      background-color: white;
+      border: 1px solid lightgrey;
+   
+  }
+
+  textarea.inpSec{
+    background-color: white;
+    border: 1px solid lightgray;
+    
+  }
+
+  .inpSec::placeholder{
+    color: lightgray;
+  }
+
   footer{
       color: white;
       background-color: #5768AD;
