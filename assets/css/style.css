@@ -158,5 +158,12 @@ textarea{
 
 .zoom {
     padding: 20px;
-    background-color: lightgray;
+}
+
+.classesFirst{
+    background-color: #FEFEFE;
+}
+
+.classesThird{
+    background-color: #F3F4F8;
 }
