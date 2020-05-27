@@ -3,15 +3,471 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 <body>
+<!--TOP INFO SECTION WITH PHONES AND LOGO-->
+<header class="mb-3">
+    <div class="container d-flex justify-content-center align-items-center">
+        <a href="app/views/home.html"><img src="assets/images/logo.png" alt="logo"></a>
+        <ul class="row justify-content-center align-items-center mr-3">
+            <li>CALL US: + 1 800-567-8990</li>
+            <li>WRITE US: OFFICE@EXAMPLE.COM</li>
+            <li>OPENING TIMES: MON - FRI: 9:00 - 19:00</li>
+        </ul>
+        <a class="join" href="#" class="primary-btn">JOIN US</a>
+       </div>
+</header>
+<!--NAVIGATION BAR-->
+<section class="homeFirst">
+    <div class="container">
+    <nav class="row pt-2">
+        <a class="pr-3" href="app/views/home.html">Home</a>
+        <a class="pr-3" href="app/views/about.html">About</a>
+        <a class="pr-3" href="app/views/classes.html">Classes</a>
+        <div class="dropdown"> 
+        <span><a class="pr-3" href="app/views/pages.html">Pages</a></span>
+         <div class="dropdown-content block">
+             <a class="pr-3" href="#">Classes Details</a>
+             <a class="pr-3" href="#">Blog Details</a>
+             <a class="pr-3" href="#">Pricing</a>
+             <a class="pr-3" href="#">Faq</a>
+         </div>
+         </div>
+        <a class="pr-3" href="app/views/blog.html">Blog</a>
+        <a class="pr-3" href="app/views/contact.html">Contact</a>
+    </nav>
+    </div>
+    <!--CAROUSEL-->    
+        <div id="carouselExampleInterval" class="carousel slide d-flex justify-content-center align-items-center karusele text-white" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000">
+                  <div class="container">
+                <div class="row">
+                    <div class="text-left w-50 carousel-text ">
+                        <span>Welcome to Zogin</span>
+                        <h2 class="mb-5">What hurts today makes you stronger tomorrow</h2>
+                        <a class="p-3" href="#">DISCOVER ME</a>
+                    </div>
+                    <div>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                  <div class="row">
+                    <div class="text-left w-50 carousel-text">
+                        <span>Welcome to Zogin</span>
+                        <h2>What hurts today makes you stronger tomorrow</h2>
+                        <a class="p-3" href="#">DISCOVER ME</a>
+                    </div>
+                    <div>
+                </div>
+              </div>
 
-<section class="bg-women"></section>
-    <a href="app/views/home.html"><img class="logo" src="https://colorlib.com/preview/theme/zogin/img/logo.png" alt="logo"></a>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!--END OF CAROUSEL-->
+</section>
+<!--SECTION #1 START-->
+<section class="first">
+    <div class="container">
+        <div class="d-flex justify-content-between ">
+            <!--right column-->
+            <div class="col-6 d-flex">
+                <!--left long picture-->
+                <div class="col-6 m-5">
+                    <img src="../../assets/images/about-1.png" alt="about-1">
+                </div>
+                <!--right two small pictures-->
+                <div class="col-6">
+                    <img class="mb-2 mt-5" src="../../assets/images/about-2.png" alt="about-2">
+                    <img class="mt-2" src="../../assets/images/about-3.png" alt="about-3">
+                </div>
+            </div>
+            <!--left column-->
+            <!--FIX ALIGNMENT OF COLUMNS-->
+            <div class="col-4 mt-5">
+                <div class="column align-items-flex-end">
+                        <img class="mb-3" src="../../assets/images/rose-32.png" alt="rose-32">
+                        <h2 class="mb-3">Welcome to Zogin</h2>
+                        <span class="mb-3">“What hurts today makes you stronger tomorrow.”</span>
+                        <p class="mt-2">
+                            We are offering internationally certified 200 Hour Yoga Teacher Training in Rishikesh and 300 hour yoga teacher training in Rishikesh, India - Join us to have such life-transforming experience in The world capital of Yoga in Rishikesh.
+                        </p>
+                        <p class="mb-5">Zogin is a great place for those who are in search of the ancient practice and true essence of yoga, meditation, health, peace and learning the art of creating a class to teach safely. We are passionate about adjustments and mainly focus on the alignment of the asanas.
+                        </p>
+                        <a class="first-sec-button" href="#">MORE ABOUT US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--SECTION #2-->
+<section class="second">
+    <div class="container">
+        <div class="d-flex-column text-center"> 
+            <img class="mb-3" src="../../assets/images/rose-32.png" alt="rose-32">
+            <h2 class="mb-3">Enjoy All Aspects Of Yoga</h2>
+        </div>
+        <!--CARDS-->
+        <div>
+            <div class="card-deck">
+                <div class="card">
+                  <img src="../../assets/images/services-1.png" class="card-img-top" alt="services-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Asana</h5>
+                    <p class="card-text">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../../assets/images/services-2.png" class="card-img-top" alt="services-2">
+                  <div class="card-body">
+                    <h5 class="card-title">Meditation</h5>
+                    <p class="card-text">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../../assets/images/services-3.png" class="card-img-top" alt="services-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Mudra</h5>
+                    <p class="card-text">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="../../assets/images/services-4.png" class="card-img-top" alt="services-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Bandhas</h5>
+                      <p class="card-text">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../../assets/images/services-5.png" class="card-img-top" alt="services-5">
+                    <div class="card-body">
+                      <h5 class="card-title">Philosophy</h5>
+                      <p class="card-text">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../../assets/images/services-6.png" class="card-img-top" alt="services-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Pranayama</h5>
+                      <p class="card-text">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <!--END OF CARDS-->
+    </div>
+</section>
+<!--SECTION #3-->
+<section class="third">
+    <div class="container d-flex mt-5">
+        <div class="d-flex justify-content-center"></div>
+        <!--left block-->
+        <div class="col-6">
+            <h2>Why Choose Us</h2>
+            <p>We are offering internationally certified 200 Hour Yoga Teacher Training in Rishikesh and 300 hour yoga teacher training in Rishikesh, India - Join us to have such life-transforming experience in The world capital of Yoga in Rishikesh.</p>
+            <!--div with row #1-->
+            <div class="row justify-content-around mt-5">
+                <div class="row">
+                    <img class="m-2" src="../../assets/images/choose-1.png" alt="choose-1">
+                    <div>
+                        <div>2146</div>
+                        <div>students</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="m-2" src="../../assets/images/choose-2.png" alt="choose-2">
+                    <div>
+                        <div>2146</div>
+                        <div>students</div>
+                    </div>
+                </div>
+            </div>
+            <!--div with row #2-->
+            <div class="row justify-content-around mt-5">
+                <div class="row">
+                    <img class="m-2" src="../../assets/images/choose-3.png" alt="choose-3">
+                    <div>
+                        <div>2146</div>
+                        <div>students</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="m-2" src="../../assets/images/choose-4.png" alt="choose-4">
+                    <div>
+                        <div>2146</div>
+                        <div>students</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--right block with picture-->
+        <div class="col-6">
+            <img src="../../assets/images/choose-pic.png" alt="choose-pic">
+        </div>
+    </div>
+</section>
+<!--SECTION #4-->
+<section class="fourth">
+    <div class="container">
+        <div class="d-flex-column text-center justify-content-center">
+            <h2 class="mt-5">Upcoming Courses</h2>
+            <p class="mt-5">The trainings are multi-style and you will learn and practice Hatha Vinyasa (flow)
+                and Yin Yoga.</p>
+        </div>
+        <!--CARDS-->
+        <div>
+            <div class="card-deck mt-5">
+                <div class="card">
+                  <img src="../../assets/images/classes-1.PNG" class="card-img-top" alt="classes-1">
+                  <div class="card-body">
+                    <p>14 Days | Start on 10th Every Month</p>
+                    <h5 class="card-title">100 Hour Yoga Course Rishikesh</h5>
+                    <p class="card-text">Jordan Lawson - Yoga Teacher</p>
+                  </div>
+                  <div class="join-class mt-5">
+                    <a href="#">JOIN NOW</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../../assets/images/classes-2.png" class="card-img-top" alt="classes-2">
+                  <div class="card-body">
+                      <p>14 Days | Start on 10th Every Month</p>
+                    <h5 class="card-title">200 Hour Yoga Course Rishikesh</h5>
+                    <p class="card-text">Jordan Lawson - Yoga Teacher</p>
+                  </div>
+                  <div class="join-class mt-5">
+                    <a href="#">JOIN NOW</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../../assets/images/classes-3.png" class="card-img-top" alt="classes-3">
+                  <div class="card-body">
+                      <p>14 Days | Start on 10th Every Month</p>
+                    <h5 class="card-title">300 Hour Yoga Course Rishikesh</h5>
+                    <p class="card-text">Jordan Lawson - Yoga Teacher</p>
+                  </div>
+                  <div class="join-class mt-5">
+                    <a href="#">JOIN NOW</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<!--GALLERY SECTION-->
+<section class="gallerySec">
+    <div class="container mt-5">
+        <div class="d-flex-column text-center mt-5">
+            <h2 class="mt-5">Our Gallery</h2>
+            <p class="mt-5">This is the beautiful yogi and yoginis that have shared their journey and growth with
+                us. Take a look!</p>
+        </div>
+    </div>
+    <!--galery-->
+    <div class="container-fluid">
+        <div class="row justify-content-around mt-5 gallery">
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-1.png" alt="gallery-1"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-2.png" alt="gallery-2"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-3.png" alt="gallery-3"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-4.png" alt="galerry-4"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-5.png" alt="gallery-5"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-6.png" alt="gallery-6"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-7.png" alt="gallery-7"></div>
+            <div class="col-3 p-0"><img src="../../assets/images/gallery-8.png" alt="gallery-8"></div>
+        </div>
+    </div>
+</section>
+<!--INSTRUCTORS SECTION-->
+<section>
+    <div class="container mt-5">
+        <div class="d-flex-column justify-content-center text-center">
+            <h2 class="mt-5">Meet Our Instructors</h2>
+            <p class="mt-5">Our Indian and western teachers are highly qualified and will be happy to share this
+                spiritual journey with you.</p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <!--CARDS-->
+            <div class="mt-5">
+                <div class="card-deck mt-5 text-center">
+                    <div class="card">
+                      <img src="../../assets/images/instructor-1.png" class="card-img-top" alt="instructor-1">
+                      <div class="card-body">
+                        <h5 class="card-title">Emma Hale</h5>
+                        <p class="card-text">Yoga Trainer</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="../../assets/images/instructor-2.png" class="card-img-top" alt="instructor-2">
+                      <div class="card-body">
+                        <h5 class="card-title">Rebecca James</h5>
+                        <p class="card-text">Yoga Trainer</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="../../assets/images/instructor-3.png" class="card-img-top" alt="instructor-3">
+                      <div class="card-body">
+                        <h5 class="card-title">Melissa Smith</h5>
+                        <p class="card-text">Yoga Trainer</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="../../assets/images/instructor-4.png" class="card-img-top" alt="instructor-4">
+                        <div class="card-body">
+                          <h5 class="card-title">Melissa Smith</h5>
+                          <p class="card-text">Yoga Trainer</p>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            <!--END OF CARDS-->
+        </div>
+    </div>
+</section>
+<!--FORM SECTION-->
+<section>
+    <div class="container text-center formSec mt-5">
+        <div class="d-flex-column justify-content-center text- center">
+            <img class="mt-5" src="../../assets/images/rose-32.png" alt="rose-32">
+            <h2 class="mt-5 text-white">Make An Appointment</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+        <div class="row justify-content-center mt-5 col-10">
 
+            <input class="col-6 mb-3 " type="text" name="name" id="name" placeholder="Name">
+            <input class="col-6 mb-3 " type="text" name="email" id="email" placeholder="Email">
+            <input class="col-12 mt-1 mb-3" type="text" name="subject" placeholder="Subject">
+            <textarea class="col-12 mt-1 mb-3" name="textarea" id="textas" cols="30" rows="10"></textarea>
+        </div>
+        </div>
+    </div>
+</section>
+<!--SECON CAROUSEL SECTION-->
+<section>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            
+            <div id="carouselExampleInterval" class="carousel slide d-flex justify-content-center align-items-center karusele2" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-interval="10000">
+                      <div class="container">
+                    <div class="row">
+                        <div class="text-center carousel-text ">
+                            <h2>This is my second time completing a 200 hr TTC from Zogin and I loved the experiences
+                                even more than the first time that I had done in 2014.</h2>
+                                <img class="mt-3" src="../../assets/images/testimonial-1.png" alt="testimonial-1">
+                                <h5 class="mt-3">Linnie Walton <span>- Trainer</span></h5>
+                        </div>
+                        <div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-interval="2000">
+                      <div class="row">
+                        <div class="text-center carousel-text">
+                            <h2>This is my second time completing a 200 hr TTC from Zogin and I loved the experiences
+                                even more than the first time that I had done in 2014.</h2>
+                                <img src="../../assets/images/testimonial-1.png" alt="testimonial-1">
+                                <h5>Linnie Walton <span>- Trainer</span></h5>
+                        </div>
+                        <div>
+                    </div>
+                  </div>
+    
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            
+        </div>
+    </div>
+</section>
+<!--FOOTER-->
+<footer>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer__about">
+                        <img src="../../assets/images/footer-logo.png" alt="footer-logo">
+                        <ul>
+                            <li> Mon - Fri: 6:30am - 07:45pm</li>
+                            <li> Sat - Sun: 8:30am - 05:45pm</li>
+                        </ul>
+                        <form action="#">
+                            <input type="text" placeholder="Your Email">
+                            <button type="submit">Submit</button>
+                        </form>
+                        </div>
+                        </div>
+                        <div class="col-2">
+                            <div>
+                            <h5>Inspiration</h5>
+                                <ul>
+                                    <li><a href="#">Online Pilates</a></li>
+                                    <li><a href="#">Yoga for Beginners</a></li>
+                                    <li><a href="#">Online Pilates</a></li>
+                                    <li><a href="#">Online Yoga</a></li>
+                                    <li><a href="#">Conditioning</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div>
+                                <h5>About Us</h5>
+                                <ul>
+                                    <li><a href="#">Our Vision</a></li>
+                                    <li><a href="#">Our Mission</a></li>
+                                    <li><a href="#">Meet The Team</a></li>
+                                    <li><a href="#">Introduce</a></li>
+                                    <li><a href="#">Customer Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div>
+                                <h5>Contact Us</h5>
+                                <ul>
+                                    <li> (01) 436 8888</li>
+                                    <li> hello@zogin.com</li>
+                                    <li> 828 Granville Lights Suite 466</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        <div class="row">
+                        <div class="col-6">
+                            <div>
+                                <p>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                        <div>
+                        <!--INSERT SOCIAL MEDIA ICONS-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+</footer>
+    
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 </body>

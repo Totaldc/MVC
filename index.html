@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,13 +23,21 @@
 <!--NAVIGATION BAR-->
 <section class="homeFirst">
     <div class="container">
-    <nav class=" pt-2">
-        <a class="p-3" href="app/views/home.html">Home</a>
-        <a class="p-3" href="app/views/about.html">About</a>
-        <a class="p-3" href="app/views/classes.html">Classes</a>
-        <a class="p-3" href="app/views/pages.html">Pages</a>
-        <a class="p-3" href="app/views/blog.html">Blog</a>
-        <a class="p-3" href="app/views/contact.html">Contact</a>
+    <nav class="row pt-2">
+        <a class="pr-3" href="app/views/home.html">Home</a>
+        <a class="pr-3" href="app/views/about.html">About</a>
+        <a class="pr-3" href="app/views/classes.html">Classes</a>
+        <div class="dropdown"> 
+        <span><a class="pr-3" href="app/views/pages.html">Pages</a></span>
+         <div class="dropdown-content block">
+             <a class="pr-3" href="#">Classes Details</a>
+             <a class="pr-3" href="#">Blog Details</a>
+             <a class="pr-3" href="#">Pricing</a>
+             <a class="pr-3" href="#">Faq</a>
+         </div>
+         </div>
+        <a class="pr-3" href="app/views/blog.html">Blog</a>
+        <a class="pr-3" href="app/views/contact.html">Contact</a>
     </nav>
     </div>
     <!--CAROUSEL-->    
