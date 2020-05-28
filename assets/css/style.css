@@ -25,6 +25,13 @@ header ul{
 nav a{
     color: white;
     text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover, .actv{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
 }
 
 .homeFirst{
@@ -196,4 +203,26 @@ textarea{
     border-radius: 50%;
   }
 
+  .join-blog a{
+      color: gray;
+      text-decoration: none;
+      padding: 15px;
+      border: 1px solid lightgray;
+      border-radius: 31%;
+  }
+
+
+  .blog-categories li{
+      list-style-type: none;
+  }
+
+  .blog-categories a{
+    color: gray;
+  }
+
+  .blog-sidebar-tags a{
+      color: gray;
+      background-color: #F5F5F5;
+      text-decoration: none;
+  }
  
