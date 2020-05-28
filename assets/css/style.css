@@ -34,10 +34,24 @@ nav a:hover, .actv{
     border-bottom: 2px solid white;
 }
 
+.central-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.central-nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .homeFirst{
     background-image: url('../images/hero-1.png');
     background-size: inherit;
     height: 100vh ;
+}
+
+.bg-darker{
+    background-color: #F5F6FA;
 }
 
 .karusele{
@@ -72,11 +86,18 @@ nav a:hover, .actv{
 }
 
 .join-class a{
-    padding: 20px;
-    border: 1px solid black;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
     text-decoration: none;
-    color: blueviolet;
+    color: #5768AD;
 
+}
+
+.join-class a:hover{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color:#5768AD; ;
+    color: white;
 }
 
 
@@ -226,3 +247,41 @@ textarea{
       text-decoration: none;
   }
  
+
+  .bg-left{
+      background-image: url("../images/background-left.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      z-index: 2;
+      padding-bottom: 100px;
+  }
+
+  .bg-right{
+    background-image: url("../images/background-right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+}
+
+.girl-img{
+    width: 682px;
+    height: 649.11px;
+    position: absolute;
+    top: 0px;
+}
+
+.prog1{
+    margin-left: 270px;
+}
+
+.prog2{
+    margin-left: 200px;
+}
+
+.prog3{
+    margin-left: 270px;
+}
+
+.prog4{
+    margin-left: 280px;
+}
