@@ -146,7 +146,7 @@ textarea{
 
   footer{
       color: white;
-      background-color: #5768AD;
+      background-color: #263246;
       padding-top: 50px;
   }
 
@@ -227,6 +227,7 @@ textarea{
   .pagination-lg .page-item:last-child .page-link {
     border-radius: 50%;
   }
+
 
   .join-blog a{
       color: gray;
