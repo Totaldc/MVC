@@ -34,6 +34,10 @@ nav a:hover, .actv{
     border-bottom: 2px solid white;
 }
 
+.dropdown-content li{
+    list-style: none;
+}
+
 .central-nav a{
     color: white;
     text-decoration: none;
@@ -229,7 +233,7 @@ textarea{
       text-decoration: none;
       padding: 15px;
       border: 1px solid lightgray;
-      border-radius: 31%;
+      border-radius: 20%/50%;
   }
 
 
@@ -267,7 +271,7 @@ textarea{
     width: 682px;
     height: 649.11px;
     position: absolute;
-    top: 0px;
+    top: 50px;
 }
 
 .prog1{
@@ -284,4 +288,13 @@ textarea{
 
 .prog4{
     margin-left: 280px;
+}
+
+
+.label-blue{
+    position: absolute;
+    padding: 5px;
+    background-color: #5768AD;
+    color: white;
+    top: 10px;
 }

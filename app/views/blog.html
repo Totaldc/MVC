@@ -12,7 +12,7 @@
 <header class="mb-3">
     <div class="container d-flex justify-content-center align-items-center">
         <a href="app/views/home.html"><img src="../../assets/images/logo.png" alt="logo"></a>
-        <ul class="row justify-content-center align-items-center mr-3">
+        <ul class="row justify-content-center align-items-center mr-3 mt-3">
             <li>CALL US: + 1 800-567-8990</li>
             <li>WRITE US: OFFICE@EXAMPLE.COM</li>
             <li>OPENING TIMES: MON - FRI: 9:00 - 19:00</li>
@@ -30,10 +30,10 @@
             <div class="dropdown"> 
             <span><a class="mr-3" href="pages.html">PAGES</a></span>
              <div class="dropdown-content block">
-                 <a class="mr-3" href="#">CLASSES DETAILS</a>
-                 <a class="mr-3" href="#">BLOG DETAILS</a>
-                 <a class="mr-3" href="#">PRICING</a>
-                 <a class="mr-3" href="#">FAQ</a>
+              <li><a class="" href="#">CLASSES DETAILS</a></li>
+              <li><a class="" href="#">BLOG DETAILS</a></li>
+              <li><a class="" href="#">PRICING</a></li>
+              <li><a class="" href="#">FAQ</a></li>
              </div>
              </div>
             <a class="mr-3 actv" href="blog.html">BLOG</a>
@@ -41,14 +41,14 @@
         </nav>
     
         <span>
-            <img class="mr-4" src="../../assets/images/instagram-16 (1).png" alt="instagram-16">
-            <img class="mr-4" src="../../assets/images/facebook-3-16 (1).png" alt="facebook-3-16">
-            <img class="mr-4" src="../../assets/images/twitter-16 (1).png" alt="twitter-16">
-            <img class="mr-4" src="../../assets/images/youtube-4-16 (1).png" alt="youtube-4-16">
-        </span>
+          <a href="#"><img class="mr-4" src="../../assets/images/instagram-16 (1).png" alt="instagram-16"></a>
+          <a href="#"><img class="mr-4" src="../../assets/images/facebook-3-16 (1).png" alt="facebook-3-16"></a>
+          <a href="#"><img class="mr-4" src="../../assets/images/twitter-16 (1).png" alt="twitter-16"></a>
+          <a href="#"><img class="mr-4" src="../../assets/images/youtube-4-16 (1).png" alt="youtube-4-16"></a>
+      </span>
         </div>
   <div class="d-flex justify-content-center about-top-text text-white">
-    <div class="">
+    <div class="text-center">
         <h2>Blog</h2>
             <div class="central-nav">
                 <a href="../views/home.html">Home/</a>
@@ -58,7 +58,7 @@
 </div>
 </section>
 <!--SECTION #1-->
-<section class="blogFirst">
+<section class="blogFirst mb-5">
     <div class="container">
         <div class="d-flex">
             <!--LEFT COLUMN-->
@@ -117,32 +117,45 @@
 
                             <div class="blog-sidebar-comment">
                                 <h4 class="mt-5">Comment</h4>
-                                <div class="classes-sidebar-comment d-flex
-                                 ">
+                                <div class="classes-sidebar-comment d-flex">
                                             <div class="classes-sidebar-comment-pic">
                                                 <img src="../../assets/images/comment-1.png" alt="comment-1">
                                                 <div class="classes-sidebar-comment-rating">
                                             <!--INSERT STAR ICONS-->
+                                                  <div class="d-flex justify-content-center">
+                                                    <img src="../../assets/images/star-16.png" alt="star-16">
+                                                    <img src="../../assets/images/star-16.png" alt="star-16">
+                                                    <img src="../../assets/images/star-16.png" alt="star-16">
+                                                    <img src="../../assets/images/star-16.png" alt="star-16">
+                                                    <img src="../../assets/images/star-16.png" alt="star-16">
+                                                  </div>
                                                 </div>
                                             </div>
-                                    <div class="classes-sidebar-comment-text">
-                                    <span>04 Mar 2018</span>
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    <div class="classes-sidebar-comment-text ml-2">
+                                        <span>04 Mar 2018</span>
+                                        <h6>Brandon Kelley</h6>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                                     adipisci velit,</p>
                                     </div>
                                 </div>
-                                <div class="classes-sidebar-comment">
-                                <div class="classes-sidebar-comment-pic">
-                                <img src="../../assets/images/comment-2.png" alt="comment-2">
-                                <div class="classes-sidebar-comment-rating">
+                                <div class="classes-sidebar-comment d-flex">
+                                          <div class="classes-sidebar-comment-pic">
+                                              <img src="../../assets/images/comment-2.png" alt="comment-2">
+                                              <div class="classes-sidebar-comment-rating">
                              <!--INSERT STAR ICONS-->
+                             <div class="d-flex justify-content-center">
+                              <img src="../../assets/images/star-16.png" alt="star-16">
+                              <img src="../../assets/images/star-16.png" alt="star-16">
+                              <img src="../../assets/images/star-16.png" alt="star-16">
+                              <img src="../../assets/images/star-16.png" alt="star-16">
+                              <img src="../../assets/images/star-16.png" alt="star-16">
+                            </div>
+                                       </div>
                                 </div>
-                                </div>
-                                <div class="classes-sidebar-comment-text">
-                                <span>04 Mar 2018</span>
-                                <h6>Christina Kelley</h6>
-                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,</p>
+                                <div class="classes-sidebar-comment-text ml-2">
+                                    <span>04 Mar 2018</span>
+                                    <h6>Christina Kelley</h6>
+                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,</p>
                                 </div>
                                 </div>
                                 </div>
@@ -153,6 +166,14 @@
                 <div class="card-deck mt-5">
                     <div class="card col-6">
                       <img src="../../assets/images/classes-1.PNG" class="card-img-top" alt="classes-1">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                        <span><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"><span class="text-muted font-weight-light">Mon, Wed, Fri</span></span>
+                        </div>
+                        <div>
+                          <span><img src="../../assets/images/chat-4-16.png" alt="chat-4-16"><span class="text-muted font-weight-light">5</span></span>
+                          </div>
+                        </div>
                       <div class="card-body">
                         <p>14 Days | Start on 10th Every Month</p>
                         <h5 class="card-title">100 Hour Yoga Course Rishikesh</h5>
@@ -164,6 +185,14 @@
                     </div>
                     <div class="card col-6">
                       <img src="../../assets/images/classes-2.png" class="card-img-top" alt="classes-2">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                        <span><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"><span class="text-muted font-weight-light">Mon, Wed, Fri</span></span>
+                        </div>
+                        <div>
+                          <span><img src="../../assets/images/chat-4-16.png" alt="chat-4-16"><span class="text-muted font-weight-light">5</span></span>
+                          </div>
+                        </div>
                       <div class="card-body">
                           <p>14 Days | Start on 10th Every Month</p>
                         <h5 class="card-title">200 Hour Yoga Course Rishikesh</h5>
@@ -178,6 +207,14 @@
                   <div class="card-deck mt-5">
                     <div class="card col-6">
                       <img src="../../assets/images/classes-1.PNG" class="card-img-top" alt="classes-1">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                        <span><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"><span class="text-muted font-weight-light">Mon, Wed, Fri</span></span>
+                        </div>
+                        <div>
+                          <span><img src="../../assets/images/chat-4-16.png" alt="chat-4-16"><span class="text-muted font-weight-light">5</span></span>
+                          </div>
+                        </div>
                       <div class="card-body">
                         <p>14 Days | Start on 10th Every Month</p>
                         <h5 class="card-title">100 Hour Yoga Course Rishikesh</h5>
@@ -189,6 +226,14 @@
                     </div>
                     <div class="card col-6">
                       <img src="../../assets/images/classes-2.png" class="card-img-top" alt="classes-2">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                        <span><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"><span class="text-muted font-weight-light">Mon, Wed, Fri</span></span>
+                        </div>
+                        <div>
+                          <span><img src="../../assets/images/chat-4-16.png" alt="chat-4-16"><span class="text-muted font-weight-light">5</span></span>
+                          </div>
+                        </div>
                       <div class="card-body">
                           <p>14 Days | Start on 10th Every Month</p>
                         <h5 class="card-title">200 Hour Yoga Course Rishikesh</h5>
@@ -202,6 +247,14 @@
                   <div class="card-deck mt-5">
                     <div class="card col-6">
                       <img src="../../assets/images/classes-1.PNG" class="card-img-top" alt="classes-1">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                        <span><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"><span class="text-muted font-weight-light">Mon, Wed, Fri</span></span>
+                        </div>
+                        <div>
+                          <span><img src="../../assets/images/chat-4-16.png" alt="chat-4-16"><span class="text-muted font-weight-light">5</span></span>
+                          </div>
+                        </div>
                       <div class="card-body">
                         <p>14 Days | Start on 10th Every Month</p>
                         <h5 class="card-title">100 Hour Yoga Course Rishikesh</h5>
@@ -213,6 +266,14 @@
                     </div>
                     <div class="card col-6">
                       <img src="../../assets/images/classes-2.png" class="card-img-top" alt="classes-2">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                        <span><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"><span class="text-muted font-weight-light">Mon, Wed, Fri</span></span>
+                        </div>
+                        <div>
+                          <span><img src="../../assets/images/chat-4-16.png" alt="chat-4-16"><span class="text-muted font-weight-light">5</span></span>
+                          </div>
+                        </div>
                       <div class="card-body">
                           <p>14 Days | Start on 10th Every Month</p>
                         <h5 class="card-title">200 Hour Yoga Course Rishikesh</h5>
@@ -232,73 +293,78 @@
 
 <!--FOOTER-->
 <footer>
-    <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="footer__about">
-                        <img src="../../assets/images/footer-logo.png" alt="footer-logo">
-                        <ul>
-                            <li> Mon - Fri: 6:30am - 07:45pm</li>
-                            <li> Sat - Sun: 8:30am - 05:45pm</li>
-                        </ul>
-                        <form action="#">
-                            <input type="text" placeholder="Your Email">
-                            <button type="submit">Submit</button>
-                        </form>
-                        </div>
-                        </div>
-                        <div class="col-2">
-                            <div>
-                            <h5>Inspiration</h5>
-                                <ul>
-                                    <li><a href="#">Online Pilates</a></li>
-                                    <li><a href="#">Yoga for Beginners</a></li>
-                                    <li><a href="#">Online Pilates</a></li>
-                                    <li><a href="#">Online Yoga</a></li>
-                                    <li><a href="#">Conditioning</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div>
-                                <h5>About Us</h5>
-                                <ul>
-                                    <li><a href="#">Our Vision</a></li>
-                                    <li><a href="#">Our Mission</a></li>
-                                    <li><a href="#">Meet The Team</a></li>
-                                    <li><a href="#">Introduce</a></li>
-                                    <li><a href="#">Customer Service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div>
-                                <h5>Contact Us</h5>
-                                <ul>
-                                    <li> (01) 436 8888</li>
-                                    <li> hello@zogin.com</li>
-                                    <li> 828 Granville Lights Suite 466</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                        <div class="row">
-                        <div class="col-6">
-                            <div>
-                                <p>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                        <div>
-                        <!--INSERT SOCIAL MEDIA ICONS-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
+  <section class="footer">
+      <div class="container">
+          <div class="d-flex">
+              <div class="col-4">
+                  <div class="footer__about">
+                      <img src="../../assets/images/footer-logo.png" alt="footer-logo">
+                      <ul>
+                          <li><img src="../../assets/images/time-8-16.png" alt="time"> Mon - Fri: 6:30am - 07:45pm</li>
+                          <li><img src="../../assets/images/time-8-16.png" alt="time"> Sat - Sun: 8:30am - 05:45pm</li>
+                      </ul>
+                      <form action="#">
+                          <input type="text" placeholder="Your Email">
+                          <button type="submit">Submit</button>
+                      </form>
+                      </div>
+                      </div>
+                      <div class="col-2">
+                          <div>
+                          <h5>Inspiration</h5>
+                              <ul>
+                                  <li><a href="#">Online Pilates</a></li>
+                                  <li><a href="#">Yoga for Beginners</a></li>
+                                  <li><a href="#">Online Pilates</a></li>
+                                  <li><a href="#">Online Yoga</a></li>
+                                  <li><a href="#">Conditioning</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-2">
+                          <div>
+                              <h5>About Us</h5>
+                              <ul>
+                                  <li><a href="#">Our Vision</a></li>
+                                  <li><a href="#">Our Mission</a></li>
+                                  <li><a href="#">Meet The Team</a></li>
+                                  <li><a href="#">Introduce</a></li>
+                                  <li><a href="#">Customer Service</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-4 ">
+                          <div>
+                              <h5>Contact Us</h5>
+                              <ul>
+                                  <li><img src="../../assets/images/phone-62-16.png" alt="phone"> (01) 436 8888</li>
+                                  <li><img src="../../assets/images/calendar-4-16.png" alt="calendar-4-16"> hello@zogin.com</li>
+                                  <li><img src="../../assets/images/location-16.png" alt="location"> 828 Granville Lights Suite 466</li>
+                              </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div>
+                      <div class="row">
+                      <div class="col-6">
+                          <div>
+                              <p>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</p>
+                          </div>
+                      </div>
+                      <div class="col-6 d-flex justify-content-end">
+                          <div>
+                      
+                                  <a href="#"><img class="mr-4" src="../../assets/images/instagram-16 (1).png" alt="instagram-16"></a>
+                                  <a href="#"><img class="mr-4" src="../../assets/images/facebook-3-16 (1).png" alt="facebook-3-16"></a>
+                                  <a href="#"><img class="mr-4" src="../../assets/images/twitter-16 (1).png" alt="twitter-16"></a>
+                                  <a href="#"><img class="mr-4" src="../../assets/images/youtube-4-16 (1).png" alt="youtube-4-16"></a>
+                              
+                          </div>
+                      </div>
+              </div>
+          </div>
+      </div>
+      </section>
 </footer>
 
     
